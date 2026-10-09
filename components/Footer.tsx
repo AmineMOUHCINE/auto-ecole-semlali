@@ -57,9 +57,47 @@
           </div>
         </div>
       </div>
-      <div className="text-center pt-8 border-t border-slate-700">
-        <p>
-          2025 مؤسسة السملالي لتعليم السياقة وقانون السير. جميع الحقوق محفوظة.
+
+      {/* Section Développeur */}
+      <div className="border-t border-slate-700 pt-6 mb-6">
+        <div className="text-center">
+          <p className="text-sm text-slate-400 mb-3">
+            Développé par :{" "}
+            <span className="text-accent font-bold">Amine MOUHCINE</span>
+          </p>
+          <div className="flex justify-center gap-5 text-2xl">
+            <a
+              href="https://github.com/AmineMOUHCINE"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-accent transition-colors"
+              title="GitHub"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/amine-mouhcine"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-accent transition-colors"
+              title="LinkedIn"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="mailto:aminemohcine379@gmail.com"
+              className="hover:text-accent transition-colors"
+              title="Email"
+            >
+              <i className="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-center pt-6 border-t border-slate-700">
+        <p className="text-sm">
+          © 2025 مؤسسة السملالي لتعليم السياقة وقانون السير. جميع الحقوق محفوظة.
         </p>
       </div>
     </footer>
